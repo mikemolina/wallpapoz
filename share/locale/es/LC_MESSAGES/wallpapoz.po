@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: wallpapoz 0.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-04-01 00:51+0700\n"
-"PO-Revision-Date: 2007-05-20 22:37-0400\n"
+"PO-Revision-Date: 2014-10-18 13:06-0500\n"
 "Last-Translator: René Garcia <renegarcia@gmail.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -142,7 +142,7 @@ msgstr "No puede eliminar todos los Wallpapers."
 
 #: ../../src/wallpapoz:1161
 msgid "You must choose only image file."
-msgstr "Debe elegir solamente archivos de imagenes."
+msgstr "Debe elegir solamente archivos de imágenes."
 
 #: ../wallpapoz/lib/xml_processing.py:65
 msgid "No configuration file. Use default configuration."
@@ -153,7 +153,7 @@ msgstr "No hay archivo de configuración. Utilice la configuración del defecto.
 msgid ""
 "The configuration file is corrupted. Remove it then create a new one again "
 "with Wallpapoz!"
-msgstr "El archivo de configuración esta corrupto. ¡Quítelo y crea uno nuevo con Wallpapoz!"
+msgstr "El archivo de configuración está corrupto. ¡Quítelo y crea uno nuevo con Wallpapoz!"
 
 #: ../wallpapoz/lib/xml_processing.py:271
 #: ../wallpapoz/lib/xml_processing.py:296
@@ -235,11 +235,11 @@ msgstr "Prefere_ncias"
 
 #: ../wallpapoz/glade/wallpapoz.glade:329
 msgid "_Daemon"
-msgstr "_Daemon"
+msgstr "_Demonio"
 
 #: ../wallpapoz/glade/wallpapoz.glade:338
 msgid "Run the Daemon"
-msgstr "Funcione el Daemon"
+msgstr "Correr el Demonio"
 
 #: ../wallpapoz/glade/wallpapoz.glade:339
 msgid "_Restart"
@@ -247,7 +247,7 @@ msgstr "_Reiniciar"
 
 #: ../wallpapoz/glade/wallpapoz.glade:361
 msgid "Stop the Daemon"
-msgstr "Pare el Daemon"
+msgstr "Pare el Demonio"
 
 #: ../wallpapoz/glade/wallpapoz.glade:362
 msgid "_Stop"
@@ -259,7 +259,7 @@ msgstr "_Ayuda"
 
 #: ../wallpapoz/glade/wallpapoz.glade:397
 msgid "Show Help"
-msgstr "Demostrar Ayuda"
+msgstr "Mostrar Ayuda"
 
 #: ../wallpapoz/glade/wallpapoz.glade:398
 msgid "_Contents"
@@ -291,7 +291,7 @@ msgstr "Daemon:"
 
 #: ../wallpapoz/glade/wallpapoz.glade:1223
 msgid "Restart Daemon"
-msgstr "Reiniciar Daemon"
+msgstr "Reiniciar Demonio"
 
 #: ../wallpapoz/glade/wallpapoz.glade:1267
 msgid "Restart"
@@ -299,7 +299,7 @@ msgstr "Reiniciar"
 
 #: ../wallpapoz/glade/wallpapoz.glade:1328
 msgid "Stop Daemon"
-msgstr "Pare el Daemon"
+msgstr "Pare el Demonio"
 
 #: ../wallpapoz/glade/wallpapoz.glade:1372
 msgid "Stop"
@@ -399,14 +399,14 @@ msgid ""
 "                                            instead of /usr/local\n"
 msgstr ""
 "\n"
-"Este script instala o los uninstalls Wallpapoz en tu sistema \n"
+"Este script instala o  desinstala Wallpapoz en tu sistema \n"
 "Si encuentra cualequier problema, favor de divulgarlo a akbarhome@gmail.com.\n"
 "\n"
 "--------------------------------------------------------------------------------\n"
 "\n"
 "Uso:\n"
 "\n"
-"./setup.py install              ---      Instalar a /usr/local\n"
+" ./setup.py install              ---      Instalar a /usr/local\n"
 "\n"
 " ./setup.py uninstall            ---      Quitar de /usr/local\n"
 "\n"
@@ -414,8 +414,7 @@ msgstr ""
 "\n"
 "Opciones:\n"
 "\n"
-" --installdir <directory>          ---      Instalar oquitar de "
-"<directory>\n"
+" --installdir <directory>          ---      Instalar o quitar de <directory>\n"
 "                                             en vez de /usr/local\n"
 
 #: ../../setup.py:52
@@ -424,7 +423,7 @@ msgstr "Instalado"
 
 #: ../../setup.py:54
 msgid "Error while installing"
-msgstr "Ubo un error durante la instalación"
+msgstr "Hubo un error durante la instalación"
 
 #: ../../setup.py:65
 msgid "Removed"
@@ -432,7 +431,7 @@ msgstr "Quitado"
 
 #: ../../setup.py:67
 msgid "Error while removing"
-msgstr "Ubo un error mientras se quitaba "
+msgstr "Hubo un error mientras se quitaba "
 
 #: ../../setup.py:72
 msgid "Checking dependencies..."
@@ -458,7 +457,7 @@ msgstr "Instalarlos por favor e intentar otra vez."
 msgid ""
 "Gnome Python is not found. Wallpapoz still could be used and it has been "
 "installed."
-msgstr "Gnome Python no se encuentra. Wallpapoz todavía podría ser utilizado y ha estado instalado. "
+msgstr "Gnome Python no se encuentra. Wallpapoz todavía podría ser utilizado y se ha instalado. "
 
 #: ../../setup.py:106
 msgid ""
@@ -493,6 +492,6 @@ msgid ""
 "install Wallpapoz again later.\n"
 msgstr ""
 "\n"
-"Es posible que hay archivos todavía en ~/.wallpapoz/ en su sistema.\n"
-"Por favor quite esa carpeta manualmente si no planeas instaler Wallpapoz otra ves.\n"
+"Es posible que hayan archivos todavía en ~/.wallpapoz/ en su sistema.\n"
+"Por favor quite esa carpeta manualmente si no planeas instalar Wallpapoz otra vez.\n"
 
